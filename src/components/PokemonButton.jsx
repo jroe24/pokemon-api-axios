@@ -14,18 +14,6 @@ const PokemonButton = (props) => {
             .catch(err => console.log(err))
         }
 
-    // // Handles the action of the button click when calling on API 
-    // const fetchPokemon = (event) => {
-    //     // Fetching the pokemon API
-    //     fetch("https://pokeapi.co/api/v2/pokemon?limit=964&offset=0")
-    //         // Return the API data as JSON data
-    //         .then ( (response) => {return response.json();})
-    //         // Send JSON data to setPokemon to set state
-    //         .then ( (response) => {
-    //             setPokemon(response.results)})
-    //         //Handles any errors
-    //         .catch ( (error) => {console.log(error);});
-    // }
 
     // Handles the display of fetch API data
     const displayPokemon = () => {
